@@ -1,0 +1,172 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body {
+  margin: 0;
+  background-color: #AB88FF;
+  font-family: 'Muli', sans-serif;
+}
+
+body header {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body header .header__img {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+body header .login {
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+body header .login .login__img {
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+}
+
+body header .login .login__profile--ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 7px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header .login details {
+  list-style: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+body header .login details:focus, body header .login details :hover, body header .login details :active {
+  outline: none;
+}
+
+body header .login summary {
+  list-style: none;
+  outline: none;
+  list-style-type: none;
+  padding-right: 7px;
+  text-align: right;
+}
+
+body header .login summary::-webkit-details-marker {
+  display: none;
+}
+
+body header .login .login__profile--li {
+  list-style-type: none;
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+}
+
+body header .login .login__profile--li a {
+  text-decoration: none;
+}
+
+body .search__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .search__container .search__container--input {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+body .search__container .search__container--input input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid;
+  color: white;
+}
+
+body .search__container .search__container--input input:focus, body .search__container .search__container--input input :hover, body .search__container .search__container--input input :active {
+  outline: none;
+}
+
+body .search__container .search__container--input .search__title {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+::-ms-input-placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+::placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 480px) {
+  .search__container--input {
+    min-width: 450px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .search__container--input {
+    min-width: 540px;
+  }
+}
+/*# sourceMappingURL=buscador.css.map */
